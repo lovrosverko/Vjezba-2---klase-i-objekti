@@ -21,7 +21,7 @@ namespace Vjezba_2___klase_i_objekti
         public double Prosjek(int[] niz)
         {
             int zbroj = Zbroj(niz);
-            double prosjek = zbroj / niz.Length;
+            double prosjek = (double)zbroj / niz.Length;
             return prosjek;
 
         }
